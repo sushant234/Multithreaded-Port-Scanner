@@ -16,7 +16,6 @@ pip install -r requirements.txt
 Finally, run the port scanner with the following command:
 
 python port_scanner.py TARGET_IP [--tcp-ports TCP_PORTS] [--udp-ports UDP_PORTS]
-
 Replace TARGET_IP with the IP address of the target you want to scan. The --tcp-ports and --udp-ports options are optional and allow you to specify lists of TCP and UDP ports to scan, respectively. If these options are not specified, the script will scan ports 1-1023 for both TCP and UDP.
 
 For more information on how to use the port scanner, run the following command:
